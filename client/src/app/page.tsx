@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Landing from "./(nondashboard)/landing/page";
 
 export default function Home() {
- return(
-  <div className="">The Lord says i should believe</div>
- )
+  return (
+    <div className="w-full h-full">
+      <Navbar />
+      <main className={`h-full flex w-full flex-col`}>
+        <Landing />
+      </main>
+    </div>
+  );
 }
