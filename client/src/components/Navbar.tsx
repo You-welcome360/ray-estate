@@ -106,6 +106,12 @@ const Navbar = () => {
                 <Bell className="w-6 h-6 cursor-pointer text-primary-200 hover:text-primary-400" />
                 <span className="absolute top-0 right-0 w-2 h-2 bg-secondary-700 rounded-full"></span>
               </div>
+              <div className="relative hidden md:block">
+                <Link href={'/search'}>
+                  <Search className="w-6 h-6 cursor-pointer text-primary-200 hover:text-primary-400" />
+                </Link>
+                <span className="absolute top-0 right-0 w-2 h-2 bg-secondary-700 rounded-full"></span>
+              </div>
               <DropdownMenu>
                 <DropdownMenuTrigger className="flex items-center gap-2 focus:outline-none">
                   <Avatar>
