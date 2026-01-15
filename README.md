@@ -1,4 +1,4 @@
-# [Rental App](https://https://master.d3tnt6d6rfvqno.amplifyapp.com/)
+# [Rental App](https://master.d3tnt6d6rfvqno.amplifyapp.com/)
 
 ## Overview
 
